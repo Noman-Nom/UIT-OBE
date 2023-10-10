@@ -1,0 +1,159 @@
+.app.dark{
+    /* background-color: #0e0f12e3; */
+    background-color: rgb(15 23 42);
+    color: rgb(156, 156, 156);
+
+    .CartesianGrid{
+        stroke: rgba(228, 228, 228, 0.125);
+    }
+    .Table{
+        background-color:rgb(15 23 42) ;
+        .tableCell{
+            
+            color: rgb(156, 156, 156) ;
+        }
+    }
+    .navbar{
+        color: #ffffff;
+        border-color:#333;
+
+        .search{
+            border-color: grey;
+        }
+    }
+    .sidebar{
+        background-color: rgb(15 23 42);
+        border-color:#333 ;
+
+       
+        hr{
+           border-color: #333;
+        }
+        .center{
+
+            ul{
+                li{
+
+                    .icon{
+                        color:rgb(14 165 233);
+                    }
+                    &:hover{
+                        background-color:#333;
+                    }
+                }
+            }
+        }
+
+    }
+    .dataTable{
+        .dataGrid{
+            color: #ffffff;
+            border-color: #333;
+                a{
+
+                    .viewButton{
+                        color: rgb(255, 174, 31);
+                        background-color: rgba(194, 113, 47, 0.156);
+                    }
+                }
+                .deleteButton{
+                    background-color: rgba(228, 17, 53, 0.158);
+                    color: rgb(247, 72, 63);
+                }
+                .cellWithStatus{
+                    &.Active{
+                        color: rgb(19, 222, 107);
+                        background-color: rgba(31, 206, 107, 0.158);
+                    }
+                    &.InActive{
+                        color: rgb(73, 190, 255);
+                        background-color: rgba(35, 165, 245, 0.158);
+                    }
+                }
+        }
+
+        .addNewButton{
+            p{
+                color:rgb(14 165 233) ;
+            }
+            .btn{
+                button{
+                    color: white;
+                    background-color: rgb(14 165 233);
+                }
+            }
+        }
+    }
+    input{
+        background-color: transparent;
+        color: rgb(14 165 233);
+    }
+    .New{
+        .newContainer{
+            .top{
+                h1{
+                    color:rgb(14 165 233);
+                }
+            }
+        }
+        .bottom{
+            .right{
+                form{
+                    button{
+                        color: white;
+                        background-color:rgb(14 165 233) ;
+                    }
+                }
+            }
+        }
+    }
+    .widgets{
+        .left{
+            .counter{
+                color: white;
+            }
+        }
+    }
+   
+    .Featured {
+            .bottom{
+                .amount{
+                    color: white;
+                }
+
+            }
+    }
+    .Table{
+        .tableCell{
+            color: #ffffff;
+            // font-weight: bold;
+        }
+    }
+    .Single{
+        .singleContainer{
+            .top{
+                .left{
+                  .title{
+                    color: rgb(14, 165, 233);
+                    text-transform:uppercase;
+                  }
+                    .item{
+                        .detail{
+                            .detailItem{
+                                .itemKey{
+                                    color: #ffffff;
+                                }
+                                .itemValue{
+                                    color:rgb(14, 165, 233) ;
+                                }
+                            }
+                            .itemTitle{
+                                    color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
