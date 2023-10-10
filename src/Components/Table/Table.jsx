@@ -117,18 +117,7 @@ const rows = [
   
 
   },
-  {
-    id:8 ,
-    seatNo:"CS-20303",
-    rollNo: "20B-022-CE",
-    name:"Waqas Akhter",
-    img: "/noman.jpg",
-    batch: "2020",
-    sumester: '7th',
-    field: 'EL-CSE',
-  
 
-  },
   {
     id:9 ,
     seatNo:"CS-20303",
